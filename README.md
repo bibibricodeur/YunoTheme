@@ -7,6 +7,20 @@ Theme pour la distribution orientée auto-hébergement [YunoHost](https://yunoho
 
 [source background](http://absfreepic.com/free-photos/download/blue-sky-1920x1272_13216.html)
 
+Pour changer de thème
+
+```shell
+nano /etc/ssowat/conf.json.persistent
+```
+Pour mettre celui-ci après l'avpoir cloné dans `/usr/share/ssowat/portal/assets/themes/`
+
+```shell
+{
+    "theme" : "YunoTheme"
+}
+```
+
+
 * bibibricodeur
 
 ## License
