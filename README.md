@@ -10,7 +10,7 @@ Theme pour la distribution orientée auto-hébergement [YunoHost](https://yunoho
 Pour changer de thème
 
 ```shell
-nano /etc/ssowat/conf.json.persistent
+sudo nano /etc/ssowat/conf.json.persistent
 ```
 Pour mettre celui-ci après l'avoir cloné dans `/usr/share/ssowat/portal/assets/themes/`
 
