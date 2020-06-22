@@ -12,7 +12,7 @@ Pour changer de thème
 ```shell
 nano /etc/ssowat/conf.json.persistent
 ```
-Pour mettre celui-ci après l'avpoir cloné dans `/usr/share/ssowat/portal/assets/themes/`
+Pour mettre celui-ci après l'avoir cloné dans `/usr/share/ssowat/portal/assets/themes/`
 
 ```shell
 {
