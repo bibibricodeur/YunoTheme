@@ -6,14 +6,9 @@
 */
 
 /* Make page texts black */
-.user-container h2,
-.user-container small,
-.user-container .user-mail,
-.user-container .user-mail,
-.content .footer a,
-a.app-tile,
-#ynh-logout {
-    color: #666 !important;
+
+.user-container h2, .user-container small, .user-container .user-mail, .user-container .user-mail, .content .footer a, a.app-tile, #ynh-logout {
+    color: #eee !important;
 }
 
 .ynh-user-portal {
@@ -25,18 +20,17 @@ a.app-tile,
 }
 
 /* Apps colors */
+
 .app-tile {
-    background-color: rgba(60, 240, 120, 0.6) !important;
+    background-color: rgba(120, 240, 60, 0.3) !important;
 }
 
-.app-tile:hover:after,
-.app-tile:focus:after,
-.app-tile:hover:before,
-.app-tile:focus:before {
-    background: rgba(255, 255, 255, 0.5) !important;
+.app-tile:hover:after, .app-tile:focus:after, .app-tile:hover:before, .app-tile:focus:before {
+    background: rgba(255, 255, 255, 0.3) !important;
 }
 
 /* Use a custom logo image */
+
 #ynh-logo {
     z-index: 10;
     background-image: url("./cloud.png");
