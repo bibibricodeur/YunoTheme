@@ -22,7 +22,7 @@
 /* Apps colors */
 
 .app-tile {
-    background-color: rgba(120, 240, 60, 0.3) !important;
+    background-color: rgba(120, 120, 90, 0.3) !important;
 }
 
 .app-tile:hover:after, .app-tile:focus:after, .app-tile:hover:before, .app-tile:focus:before {
